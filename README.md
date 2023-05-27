@@ -6,15 +6,3 @@ os códigos que usei para resolve-lo!
 Fique a vontade para entrar em contato comigo para dar sugestões e dicas!
 Este e todos os outros exercícios foram tirados do curso
 "Web Moderno Completo com JavaScript 2022 + Projetos" na Udemy.
-
-Criei uma função chamada anoBissexto que recebe um ano como argumento e verifica se ele é um ano bissexto. A função segue as regras para o cálculo dos anos bissextos.
-
-Primeiro, há uma verificação utilizando a estrutura condicional if. A condição ano % 4 === 0 verifica se o ano é divisível por 4. Se essa condição for verdadeira, significa que o ano pode ser bissexto.
-
-Em seguida, há outra verificação usando o && (AND) para verificar se o ano não é divisível por 100. Isso é feito com a condição ano % 100 !== 0. Se essa condição for verdadeira, o ano é bissexto, pois os anos divisíveis por 100 não são bissextos, exceto se também forem divisíveis por 400.
-
-Se a condição anterior for falsa, ou seja, o ano é divisível por 100, há uma nova verificação. Aqui, é usado novamente o && (AND) para verificar se o ano é divisível por 400. Isso é feito com a condição ano % 400 === 0. Se essa condição for verdadeira, o ano é bissexto.
-
-Se nenhuma das condições anteriores for verdadeira, o código chega ao else final e retorna undefined. Isso significa que o valor de entrada não é válido.
-
-No final do código, há uma série de chamadas à função anoBissexto para verificar alguns exemplos. Cada chamada imprime no console a mensagem "true" (caso o ano seja bissexto), e "false" (caso o ano não seja bissexto), com base no resultado retornado pela função.
